@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: black;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+nav {
+    flex: 1;
+    text-decoration-color: #fff;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration:inherit;
+    color: #ffcb15;
+}
+
+.col-1 h1{
+    font-size: 70px;
+    text-align: center;
+    color: #ffcb15;
+}
+.col-1 p {;
+    font-size: 28px;
+    font-weight: 500;
+    color: darkgoldenrod;
+    text-align: center;
+    
+}
+
+p {
+    color: black;
+}
+
+p2 {
+    color: #ffcb15;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    text-align: center;
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    
+    font-size: 50xp;
+    line-height: 60xp;
+    margin: 25xp 0;
+    color: #ffcb15;
+
+}
+
+.btn {
+    display: inline-block;
+    background: #ffcb15;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+
+
+}
+.btn:hover{
+    background: #563434;
+}
+
+.header {
+    background: white;
+
+}
+
+.header row {
+    margin-top: 70px;
+
+}
+
+.categories {
+    margin: 70px 0;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+
+}
+
+.col-3 img {
+    width: 100%;
+
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4 img {
+    width: 100%
+}
+
+.col-4:hover{
+    background: #8a8a8a;
+    transform: translateY(-10px);
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after {
+    content: '';
+    background: #ffcb15;
+    width: 250px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h4 {
+    text-align: center;
+    color: #555;
+    font-weight: bold;
+
+}
+
+.col-4 p2 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.rating .fa {
+    color: black;
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none
+}
+
+
+
+
+
+
+.cart-page{
+    margin:60px auto;
+    
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-page .small{
+    text-decoration-color: black;
+}
+th{
+    text-align: left;
+    padding: 10px;
+    color: #fff;
+    background: #ffcb15;
+    font-weight:normal
+}
+td{
+    padding: 10px 5px;
+}
+
+
+td a{
+    color: #ffcb15;
+    font-size: 14px;
+    font-weight: bold;
+}
+td img{
+    width: 150px;
+    height: 200px;
+    margin-right: 10px;
+    
+}
+.total-price{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.total-price table{
+    border-top: 10px solid black;
+    width: 50%;
+    max-height: 300px;
+    border-bottom: 10px solid black;
+}
+
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+
+
+
+
+/*------*/
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color: white;
+}
+
+
+}
+
+.footer-col-1,
+.footer-col-2
+ {
+    min-width: 250px;
+    margin-bottom: 20px;
+
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.app-logo {
+    margin-top: 15px;
+}
+
+app-logo img {
+    width: 150px;
+}
+
+.footer hr {
+    border: none;
+    background: #ffcb15;
+    height: 1px;
+    margin: 10px 0;
+
+}
+
+.copyright {
+    text-align: center;
+
+}
